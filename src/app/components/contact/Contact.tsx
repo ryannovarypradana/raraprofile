@@ -23,7 +23,14 @@ const Contact = () => {
                             <LuPhone className='text-3xl text-laundry-blue' />
                             <div>
                                 <h4 className='font-semibold text-laundry-gray-dark'>Telepon & WhatsApp</h4>
-                                <a href="tel:+6281234567890" className='text-laundry-gray hover:text-laundry-blue-dark'>+62 858-6304-8180</a>
+                                 <a 
+                                href="https://wa.me/6285863048180?text=Halo%20Rara%20Laundry,%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda." 
+                                target="_blank" 
+                                rel="noopener noreferrer" 
+                                className='text-laundry-gray hover:text-laundry-blue-dark'
+                                >
+                                    +62 858-6304-8180
+                                </a>
                             </div>
                         </div>
                         <div className='flex items-center gap-4'>
