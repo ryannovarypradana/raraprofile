@@ -9,6 +9,13 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      // Tambahkan blok ini
+      {
+        protocol: 'https',
+        hostname: 'ui-avatars.com',
+        port: '',
+        pathname: '/api/**',
+      },
     ],
   },
 };

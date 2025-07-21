@@ -1,17 +1,22 @@
 "use client";
-import { testimonialsData } from '@/app/constant/dummyData';
-import { FaQuoteLeft } from "react-icons/fa";
-import { motion } from 'framer-motion';
+import { testimonialsData } from '@/app/constant/dummyData'; //
+import { FaQuoteLeft } from "react-icons/fa"; //
+import { motion } from 'framer-motion'; //
 
 const Testimonials = () => {
     return (
-        <section id="testimonials" className='section-container bg-white'>
-            <h2 className='section-title'>Apa Kata Pelanggan Setia Kami?</h2>
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12 max-w-4xl mx-auto'>
-                {testimonialsData.map((item, index) => (
+        // Terapkan padding dan background
+        <section id="testimonials" className='bg-white px-6 md:px-12 lg:px-20 py-16 lg:py-24'>
+            {/* Terapkan kelas untuk judul */}
+            <h2 className='text-3xl lg:text-4xl font-extrabold text-laundry-gray-dark text-center mb-16'>Apa Kata Pelanggan Setia Kami?</h2>
+            
+            {/* Gunakan Grid untuk menata testimoni menjadi 2 kolom di layar besar */}
+            <div className='w-full max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8'>
+                {testimonialsData.map((item, index) => ( //
                     <motion.div
                         key={item.id}
-                        className="bg-white p-8 rounded-xl shadow-lg flex flex-col justify-between card-hover"
+                        // Tambahkan kelas untuk efek hover
+                        className="bg-white p-8 rounded-xl shadow-lg flex flex-col justify-between transition-transform duration-300 ease-in-out hover:-translate-y-2"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: index * 0.2 }}
@@ -30,4 +35,4 @@ const Testimonials = () => {
     );
 };
 
-export default Testimonials;
+export default Testimonials; //

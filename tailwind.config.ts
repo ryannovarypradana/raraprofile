@@ -21,13 +21,12 @@ const config = {
   plugins: [
     require("daisyui")
   ],
-} satisfies Config;
-
-const daisyuiConfig = {
-  themes: ["light"], // Atur tema default daisyUI
-  base: true,
-  styled: true,
-  utils: true,
+  daisyui: {
+    themes: ["light"],
+    base: false, // Super penting!
+    styled: true,
+    utils: true,
+  },
 };
 
 export default config;

@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google"; // Ganti font
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/shared/Navbar";
 import Footer from "./components/shared/Footer";
 import FloatingWhatsApp from "./components/shared/FloatingWhatsApp";
 
-const inter = Inter({ subsets: ["latin"] }); // Ganti font
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "PristineClean | Jasa Laundry Profesional & Terpercaya",
@@ -19,12 +19,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id" className="scroll-smooth">
-      <body className={inter.className}> {/* Gunakan font baru */}
-        <Navbar />
-        <main>
-          {children}
-        </main>
-        <Footer />
+      <body className={inter.className}>
+        {/* Kita bungkus semua dalam satu div utama untuk mengontrol layout */}
+        <div className="flex flex-col min-h-screen">
+          <Navbar />
+          <main className="flex-grow">
+            {children}
+          </main>
+          {/* Footer sekarang berada di dalam div utama */}
+          <Footer />
+        </div>
+        {/* Tombol WhatsApp tetap di luar karena posisinya 'fixed' */}
         <FloatingWhatsApp />
       </body>
     </html>
