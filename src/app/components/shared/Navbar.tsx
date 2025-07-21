@@ -19,7 +19,7 @@ const Navbar = () => {
             <nav className="flex justify-between items-center px-6 md:px-12 lg:px-20 py-4">
                 <Link href="/" className="flex items-center gap-3">
                     <LuWashingMachine className="text-4xl text-laundry-blue" />
-                    <span className="font-extrabold text-2xl text-laundry-gray-dark">PristineClean</span>
+                    <span className="font-extrabold text-2xl text-laundry-gray-dark">Rara Laundry</span>
                 </Link>
                 <div className="hidden md:flex items-center gap-8 font-semibold text-laundry-gray-dark">
                     <Link href="#services" className="hover:text-laundry-blue transition-colors">Layanan</Link>

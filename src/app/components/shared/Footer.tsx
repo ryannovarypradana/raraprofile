@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className='md:col-span-1'>
                         <div className="flex items-center gap-3 mb-4">
                             <LuWashingMachine className="text-4xl text-laundry-blue" />
-                            <span className="font-extrabold text-2xl text-white">PristineClean</span>
+                            <span className="font-extrabold text-2xl text-white">Rara Laundry</span>
                         </div>
                         <p className='text-laundry-gray-light'>Solusi laundry modern untuk kehidupan yang lebih praktis.</p>
                     </div>
@@ -48,7 +48,7 @@ const Footer = () => {
                 
                 {/* Copyright di bagian bawah */}
                 <div className='border-t border-gray-700 mt-12 pt-8 text-center text-sm text-laundry-gray-light'>
-                    <p>&copy; {new Date().getFullYear()} PristineClean. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Rara Laundry. All rights reserved.</p>
                 </div>
             </div>
         </footer>

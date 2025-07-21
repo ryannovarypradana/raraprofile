@@ -23,21 +23,21 @@ const Contact = () => {
                             <LuPhone className='text-3xl text-laundry-blue' />
                             <div>
                                 <h4 className='font-semibold text-laundry-gray-dark'>Telepon & WhatsApp</h4>
-                                <a href="tel:+6281234567890" className='text-laundry-gray hover:text-laundry-blue-dark'>+62 812-3456-7890</a>
+                                <a href="tel:+6281234567890" className='text-laundry-gray hover:text-laundry-blue-dark'>+62 858-6304-8180</a>
                             </div>
                         </div>
                         <div className='flex items-center gap-4'>
                             <LuMail className='text-3xl text-laundry-blue' />
                             <div>
                                 <h4 className='font-semibold text-laundry-gray-dark'>Email</h4>
-                                <a href="mailto:info@pristineclean.com" className='text-laundry-gray hover:text-laundry-blue-dark'>info@pristineclean.com</a>
+                                <a href="mailto:info@Rara Laundry.com" className='text-laundry-gray hover:text-laundry-blue-dark'>info@raralaundry.com</a>
                             </div>
                         </div>
                         <div className='flex items-center gap-4'>
                             <LuMapPin className='text-3xl text-laundry-blue' />
                             <div>
                                 <h4 className='font-semibold text-laundry-gray-dark'>Alamat Workshop</h4>
-                                <p className='text-laundry-gray'>Jl. Kebersihan Raya No. 123, Jakarta</p>
+                                <p className='text-laundry-gray'>Jl. Sulaiman No.30A, RT.3/RW.4, Palmerah, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11480</p>
                             </div>
                         </div>
                     </div>

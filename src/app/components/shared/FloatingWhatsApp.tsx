@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const FloatingWhatsApp = () => {
     // Ganti dengan nomor WhatsApp Anda (gunakan format internasional tanpa '+' atau '0')
-    const phoneNumber = "6281234567890";
+    const phoneNumber = "6285863048180";
     const message = "Halo, saya tertarik dengan layanan laundry Anda.";
 
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;

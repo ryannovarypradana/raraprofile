@@ -8,7 +8,7 @@ import FloatingWhatsApp from "./components/shared/FloatingWhatsApp";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "PristineClean | Jasa Laundry Profesional & Terpercaya",
+  title: "Rara Laundry | Jasa Laundry Profesional & Terpercaya",
   description: "Layanan laundry antar-jemput dengan hasil bersih, wangi, dan rapi.",
 };
 
