@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const Testimonials = () => {
     return (
-        <section id="testimonials" className='section-container bg-laundry-blue-light'>
+        <section id="testimonials" className='section-container bg-white'>
             <h2 className='section-title'>Apa Kata Pelanggan Setia Kami?</h2>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12 max-w-4xl mx-auto'>
                 {testimonialsData.map((item, index) => (

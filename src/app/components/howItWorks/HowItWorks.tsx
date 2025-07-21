@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const HowItWorks = () => {
     return (
-        <section id="how-it-works" className='section-container bg-laundry-blue-light'>
+       <section id="how-it-works" className='section-container bg-laundry-blue-light'>
             <h2 className='section-title'>Hanya 4 Langkah Mudah</h2>
             <p className='section-subtitle'>
                 Kami merancang proses yang simpel untuk memberikan Anda kenyamanan maksimal.

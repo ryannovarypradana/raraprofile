@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Services = () => {
     return (
-        <section id="services" className='section-container bg-white'>
+        <section id="services" className='section-container bg-white'> 
             <h2 className='section-title'>Apa yang Kami Tawarkan?</h2>
             <p className='section-subtitle'>
                 Layanan lengkap untuk memastikan setiap helai pakaian Anda mendapatkan perawatan terbaik.
