@@ -36,7 +36,10 @@ const Navbar = () => {
                     <Link href="#how-it-works" className="hover:text-laundry-blue transition-colors">Cara Kerja</Link>
                     <Link href="#testimonials" className="hover:text-laundry-blue transition-colors">Testimoni</Link>
                 </div>
-                <a href="#contact" className="btn-laundry hidden md:block">
+                <a
+                    href="#contact"
+                    className="hidden md:block bg-laundry-blue text-white font-bold py-2 px-6 rounded-full transition-all duration-300 hover:bg-laundry-blue-dark hover:scale-105"
+                >
                     Pesan Sekarang
                 </a>
 
@@ -54,7 +57,11 @@ const Navbar = () => {
                     <Link href="#services" className="font-semibold w-full hover:text-laundry-blue transition-colors" onClick={handleLinkClick}>Layanan</Link>
                     <Link href="#how-it-works" className="font-semibold w-full hover:text-laundry-blue transition-colors" onClick={handleLinkClick}>Cara Kerja</Link>
                     <Link href="#testimonials" className="font-semibold w-full hover:text-laundry-blue transition-colors" onClick={handleLinkClick}>Testimoni</Link>
-                    <a href="#contact" className="btn-laundry w-full text-center mt-2" onClick={handleLinkClick}>
+                    <a
+                        href="#contact"
+                        className="w-full text-center mt-2 bg-laundry-blue text-white font-bold py-2 px-6 rounded-full transition-all duration-300 hover:bg-laundry-blue-dark hover:scale-105"
+                        onClick={handleLinkClick}
+                    >
                         Pesan Sekarang
                     </a>
                 </div>

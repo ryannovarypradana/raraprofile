@@ -19,7 +19,7 @@ const TypeEffect = ({ arrList }: { arrList: string[] }) => {
 
 const Hero = () => {
     return (
-        <section className='relative w-full flex items-center bg-laundry-blue-light min-h-[90vh] px-6 md:px-12 lg:px-20 py-16 lg:py-24'>
+        <section className='relative w-full flex items-center bg-laundry-blue-light min-h-screen px-6 md:px-12 lg:px-20 py-16 lg:py-24'>
             <div className="w-full max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
                 
                 {/* Bagian Teks (Kiri) */}
