@@ -76,7 +76,7 @@ const Contact = () => {
                             <textarea id="message" placeholder="Pesan Anda..." className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-laundry-gray-dark focus:outline-none focus:ring-2 focus:ring-laundry-blue" rows={4}></textarea>
                         </div>
                         {/* Memastikan kelas tombol sudah benar */}
-                        <button type="submit" className='w-full bg-laundry-blue text-black font-bold py-3 px-8 rounded-full hover:bg-laundry-blue-dark transition-all duration-300 ease-in-out hover:scale-105'>
+                        <button type="submit" className='w-full bg-laundry-blue text-white font-bold py-3 px-8 rounded-full hover:bg-laundry-blue-dark transition-all duration-300 ease-in-out hover:scale-105'>
                             Kirim Pesan
                         </button>
                     </form>

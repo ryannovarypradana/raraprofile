@@ -3,7 +3,7 @@ import { LuWashingMachine, LuFacebook, LuTwitter, LuInstagram } from 'react-icon
 const Footer = () => {
     return (
         // INI PERBAIKANNYA: Menambahkan bg-laundry-gray-dark dan text-white
-        <footer className='bg-laundry-gray-dark text-black px-6 md:px-12 lg:px-20 py-16 '>
+        <footer className='bg-laundry-gray-dark text-white px-6 md:px-12 lg:px-20 py-16'>
             <div className='w-full max-w-7xl mx-auto'>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12'>
                     {/* Kolom 1: Logo & Deskripsi */}
