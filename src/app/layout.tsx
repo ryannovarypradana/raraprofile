@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id" className="scroll-smooth">
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-[var(--background)] text-[var(--foreground)]`}>
         {/* Kita bungkus semua dalam satu div utama untuk mengontrol layout */}
         <div className="flex flex-col min-h-screen">
           <Navbar />
